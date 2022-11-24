@@ -118,7 +118,7 @@ robots
     EnviarMensaje(solicitar, jefe)
     RecibirMensaje(avenida, jefe)
     Informar('Primer_Numero_Es_La_Identificacion_Segundo_Numero_Es_La_Avenida__',solicitar,avenida)
-    diagonal(avenida,ca,cant)
+    diagonal(avenida,cant)
     si(cant=9)
       EnviarMensaje(solicitar, jefe)
       EnviarMensaje(cant, jefe)
@@ -183,7 +183,7 @@ robots
           si(junto3=9)
             i:=i + 1
       si(cant=9)
-        Informar('Completo ',num)
+        Informar('Completo_el_robot',num)
         Random(calle, 60, 80)
         si(num=1)
           EnviarMensaje(calle,robot1)
