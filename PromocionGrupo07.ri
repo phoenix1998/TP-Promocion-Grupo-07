@@ -157,14 +157,14 @@ robots
     repetir 3
       RecibirMensaje(num,*)
       si(num=1) 
-        Random(av, 1, 29)
+        Random(av, 1, 28)
         EnviarMensaje(av, robot1)
       sino
         si(num=2)
-          Random(av, 31, 59)
+          Random(av, 31, 58)
           EnviarMensaje(av, robot2)
         sino
-          Random(av, 61, 89)
+          Random(av, 61, 88)
           EnviarMensaje(av, robot3)
     repetir 3
       RecibirMensaje(num,*)
